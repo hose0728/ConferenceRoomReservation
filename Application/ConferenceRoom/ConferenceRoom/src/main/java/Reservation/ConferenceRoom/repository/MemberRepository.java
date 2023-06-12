@@ -1,3 +1,4 @@
+public interface MemberRepository extends JpaRepository<Member,Long> {
 package Reservation.ConferenceRoom.repository;
 
 import Reservation.ConferenceRoom.domain.Member;
