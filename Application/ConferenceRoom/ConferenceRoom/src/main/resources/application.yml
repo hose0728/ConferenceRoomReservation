@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:tcp://localhost/~/reserve
+    url: jdbc:h2:tcp://localhost/~/reservation
     username: sa
     password:
     driver-class-name: org.h2.Driver
@@ -12,7 +12,7 @@ spring:
       hibernate:
         format_sql: true
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
     show-sql: true
 ---
 spring:

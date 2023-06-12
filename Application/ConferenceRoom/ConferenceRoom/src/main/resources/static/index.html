@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/style-login.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<div id='container'>
+    <div id='box-left'></div>
+    <div id='box-center'>
+        <br></br>
+        <br></br>
+        <br></br>
+        <div>
+            <h1>쉬운 예약</h1>
+            <div class="login-wrapper">
+                <form method="post" action="서버의url" id="login-form">
+                    <input type="text" name="userName" placeholder="ID">
+                    <input type="password" name="userPassword" placeholder="PW">
+                    <label for="remember-check">
+                        <input type="checkbox" id="remember-check">아이디 저장하기
+                    </label>
+                    <input type="submit" value="Login">
+                </form>
+                <p><a href="/members/new" class="text-link">회원가입</a> </p>
+                <p><a href="/members/find" class="text-link">아이디/비밀번호 찾기</a> </p>
+            </div>
+
+        </div>
+
+    </div>
+    <div id='box-right'></div>
+</div>
+</body>
+</html>
